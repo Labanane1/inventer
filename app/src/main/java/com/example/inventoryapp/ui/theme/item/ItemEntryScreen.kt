@@ -56,14 +56,10 @@ object ItemEntryDestination : NavigationDestination {
     override val titleRes = R.string.item_entry_title
 }
 
+@JvmOverloads
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ItemEntryScreen(
-    navigateBack: () -> Unit,
-    onNavigateUp: () -> Unit,
-    canNavigateBack: Boolean = true,
-    viewModel: ItemEntryViewModel = viewModel(factory = AppViewModelProvider.Factory)
-) {
+fun ItemEntryScreen(navigateBack: () -> Unit, onNavigateUp: () -> Unit, canNavigateBack: Boolean = true, viewModel: ItemEntryViewModel = viewModel(factory = AppViewModelProvider.Factory)) {
     val coroutineScope = rememberCoroutineScope()
     Scaffold(
         topBar = {

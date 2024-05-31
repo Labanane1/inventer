@@ -29,8 +29,8 @@ import com.example.inventory.ui.item.ItemDetailsDestination
 import com.example.inventory.ui.item.ItemDetailsScreen
 import com.example.inventory.ui.item.ItemEditDestination
 import com.example.inventory.ui.item.ItemEditScreen
-import com.example.inventory.ui.item.ItemEntryDestination
-import com.example.inventory.ui.item.ItemEntryScreen
+import com.example.inventoryapp.ui.theme.item.ItemEntryDestination
+import com.example.inventoryapp.ui.theme.item.ItemEntryScreen
 
 /**
  * Provides Navigation graph for the application.

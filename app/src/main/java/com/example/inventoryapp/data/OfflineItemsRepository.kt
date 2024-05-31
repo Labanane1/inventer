@@ -18,7 +18,6 @@ package com.example.inventoryapp.data
 
 import com.example.inventory.data.Item
 import com.example.inventory.data.ItemDao
-import com.example.inventory.data.ItemsRepository
 import kotlinx.coroutines.flow.Flow
 
 

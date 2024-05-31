@@ -57,6 +57,8 @@ import com.example.inventory.R
 import com.example.inventory.data.Item
 import com.example.inventory.ui.navigation.NavigationDestination
 import com.example.inventory.ui.theme.InventoryTheme
+import com.example.inventoryapp.ui.theme.item.formatedPrice
+import com.example.inventoryapp.ui.theme.item.toItem
 
 object ItemDetailsDestination : NavigationDestination {
     override val route = "item_details"
@@ -237,7 +239,12 @@ fun ItemDetailsScreenPreview() {
         ItemDetailsBody(
             ItemDetailsUiState(
                 outOfStock = true,
-                itemDetails = ItemDetails(1, "Pen", "$100", "10")
+                itemDetails = com.example.inventoryapp.ui.theme.item.ItemDetails(
+                    1,
+                    "Pen",
+                    "$100",
+                    "10"
+                )
             ),
             onSellItem = {},
             onDelete = {}

@@ -34,6 +34,7 @@ import com.example.inventory.R
 import com.example.inventory.ui.AppViewModelProvider
 import com.example.inventory.ui.navigation.NavigationDestination
 import com.example.inventory.ui.theme.InventoryTheme
+import com.example.inventoryapp.ui.theme.item.ItemEntryBody
 
 object ItemEditDestination : NavigationDestination {
     override val route = "item_edit"
